@@ -25,7 +25,7 @@ def ekstraksi_data():
 
 
 def tampilkan_data(result):
-    print ("Gempa Terakhir Berdasarkan BMKG")
+    print ("Gempa Terakhir Berdasarkan situs BMKG")
     print(f"Tanggal {result['tanggal']}")
     print(f"Waktu {result['waktu']}")
     print(f"Magnitudo {result['magnitudo']}")
